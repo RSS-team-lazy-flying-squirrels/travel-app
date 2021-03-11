@@ -11,9 +11,17 @@
     align-items: center;
     column-gap: 2rem;
 
+    list-style: none;
+
     &__link {
       a {
+        font-size: 2rem;
         text-decoration: none;
+
+        &:hover,
+        &.active {
+          color: violet;
+        }
       }
     }
   }
