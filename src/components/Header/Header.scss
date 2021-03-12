@@ -1,0 +1,28 @@
+.header {
+  .container {
+    max-width: 1240px;
+    padding: 0px 20px;
+    margin: 0 auto;
+  }
+
+  .main-navigation {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+
+    list-style: none;
+
+    &__link {
+      a {
+        font-size: 2rem;
+        text-decoration: none;
+
+        &:hover,
+        &.active {
+          color: violet;
+        }
+      }
+    }
+  }
+}

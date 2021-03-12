@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react';
 
-import LazyImagesExample from '@/components/LazyImagesExample';
-import TableExample from '@/components/TableExample';
+import Header from './components/Header';
 
-const App = (): JSX.Element => (
+const App: React.FC = ({ children }) => (
   <Fragment>
-    <TableExample />
-    <LazyImagesExample />
+    <Header />
+    {children}
   </Fragment>
 );
 
